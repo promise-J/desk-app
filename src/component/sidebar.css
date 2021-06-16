@@ -1,0 +1,70 @@
+.sidebar{
+    background-color: rgb(212, 204, 204);
+    flex: 0.33;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+}
+
+.sidebar .sidebar_header{
+    /* background-color: rgb(179, 179, 179); */
+    flex: 0.13;
+    display: flex;
+    padding: 0 20px;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid rgb(194, 193, 193);
+}
+
+.sidebar .sidebar_headerRight{
+    flex: 0.41;
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 10vw;
+}
+
+.sidebar_headerRight > .MuiSvgIcon-root{
+    font-size: 24px !important;
+    color: blue;
+}
+
+.sidebar_search{
+    flex: 0.13;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    border: 1px solid rgb(194, 193, 193);
+}
+
+.sidebar_search > input{
+    flex: 0.9;
+    /* background-color: red; */
+    padding: 8px;
+    outline: none;
+    border-radius: 10px;
+    background-color: inherit;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+}
+
+.sidebar_search > input::placeholder{
+    color: white;
+}
+
+.sidebar_search > .MuiSvgIcon-root{
+    color: white;
+    font-weight: bold;
+}
+
+.sidebar_chat{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    /* background: blue; */
+}
