@@ -72,7 +72,7 @@ export default function Chat() {
                <div className="chat_header_info">
                    <h2>{roomName}</h2>
                    <p>Monday, 2:45pm</p>
-                   {isTyping && <span className='isTyping'>Sweet heart is typing...</span>}
+                   {isTyping && <span className='isTyping'>{user.displayName}</span>}
                </div>
                <div className="chat_header_right">
                    <SearchOutlined />
